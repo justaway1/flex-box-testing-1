@@ -1,0 +1,157 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .main-header {
+      padding: 30px;
+      margin: 10px auto;
+      background-color: rgb(83, 189, 189);
+      color: rgb(255, 255, 255);
+      font-size: 50px;
+      text-align: center;
+  }
+  
+  .main-header:hover {
+      background-color: transparent;
+      color: black;
+      cursor: pointer;
+  }
+  
+  .container {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px auto;
+    width: 1000px;
+    background-color: rgb(184, 245, 184);
+    border-style: inset;
+    border: 5px solid darkgreen;
+  }
+  
+  .first-container {
+    display: flex;
+    margin: 20px;
+    height: 150px;
+    width: 100%;
+    border: 5px inset blue;
+    background-color: lightblue;
+  }
+  
+  .left-container {
+    border: 5px inset rgb(238, 157, 169);
+    width: 30%;
+    margin: 20px 0 20px 20px;
+    background-color: rgb(243, 207, 213);
+  }
+  
+  .last-container {
+    border: 5px inset rgb(238, 157, 169);
+    width: 30%;
+    margin: 20px 20px 20px 10px;
+    background-color: rgb(243, 207, 213);
+  
+  }
+  
+  .middle-container {
+    display: flex;
+    margin: 20px 0 20px 10px;
+    width: 40%;
+    border: 5px inset rgb(238, 157, 169);
+    background-color: rgb(243, 207, 213);
+  }
+  
+  .middle-small-1 {
+    margin: 5px 0 5px 5px;
+    width: 50%;
+    border: 5px solid red;
+    background-color: rgb(240, 193, 193);
+  }
+  
+  .middle-small-2 {
+    margin: 5px 5px 5px 0px;
+    width: 50%;
+    border: 5px solid red;
+    background-color: rgb(240, 193, 193);
+  
+  }
+  
+  /* Second half of the Containers */
+  
+  .middle-left {
+    display: block;
+    width: 50%;
+    height: 250px;
+    margin-left: 20px;
+    border: 5px inset rgb(199, 43, 108);
+    background-color: rgb(243, 179, 190);
+  }
+  
+  .middle-last-top {
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    border: 5px inset rgb(199, 43, 108);
+    background-color: rgb(243, 179, 190);
+    height: 120px;
+    width: 440px;
+  
+  }
+  
+  .middle-last-bottom {
+    position: inherit;
+    top: 130px;
+    left: 15px;
+    background-color: rgb(243, 179, 190);
+    height: 120px;
+    width: 440px ;
+    border: 5px inset rgb(199, 43, 108);
+  }
+  
+  
+  /* Last Section of the FUCKING Useless Test */
+  
+  .last-main-container {
+    display: flex;
+    border: 5px inset blue;
+    background-color: lightblue;
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+  
+  }
+  
+  .last-left {
+    border: 5px solid rgb(76, 76, 155);
+    background-color: lightblue;
+    margin: 10px 0 10px 10px;
+    width: 30%;
+  }
+  
+  .last-middle-left {
+    border: 5px solid red;
+    background-color: lightpink;
+    margin: 10px 0 10px 5px;
+    width: 20%;
+  }
+  
+  
+  .last-middle-right {
+    border: 5px solid red;
+    background-color: lightpink;
+    margin: 10px 0px 10px 5px;
+    width: 20%;
+  }
+  
+  .last-last {
+    border: 5px solid rgb(76, 76, 155);
+    background-color: lightblue;
+    margin: 10px 10px 10px 5px;
+    width: 30%;
+  }
