@@ -1,0 +1,47 @@
+@media (max-width: 1000px) {
+    .middle-last-top,
+    .middle-last-bottom {
+        max-width: 43%;
+
+    }
+
+    .middle-left {
+        
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 43%;
+    }
+}
+
+@media (max-width: 555px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 40%;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 38%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 36%;
+    }
+}
+
+

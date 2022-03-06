@@ -10,6 +10,7 @@
   }
 
   .main-header {
+      max-width: 1000px;
       padding: 30px;
       margin: 10px auto;
       background-color: rgb(83, 189, 189);
@@ -25,11 +26,11 @@
   }
   
   .container {
+    display: flex;
     position: relative;
     flex-wrap: wrap;
-    display: flex;
     margin: 10px auto;
-    width: 1000px;
+    max-width: 1000px;
     background-color: rgb(184, 245, 184);
     border-style: inset;
     border: 5px solid darkgreen;
@@ -92,7 +93,7 @@
   /* Second half of the Containers */
   
   .middle-left {
-    display: block;
+    display: flex;
     width: 50%;
     height: 250px;
     margin-left: 20px;
@@ -114,9 +115,9 @@
   }
   
   .middle-last-bottom {
-    position: inherit;
-    top: 130px;
-    left: 15px;
+    position: absolute;
+    top: 320px;
+    right: 20px;
     background-color: rgb(243, 179, 190);
     height: 120px;
     width: 440px ;
@@ -170,3 +171,8 @@
     width: 30%;
     box-shadow: 5px 10px 10px rgb(46, 45, 45);
   }
+
+
+  /* Media Quaries */
+
+ 
