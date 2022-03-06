@@ -1,7 +1,14 @@
-@media (max-width: 1000px) {
+@media (max-width: 966px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 946px) {
     .middle-last-top,
     .middle-last-bottom {
-        max-width: 43%;
+        max-width: 44.5%;
 
     }
 
@@ -10,6 +17,12 @@
     }
 
 
+}
+@media (max-width: 782px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 43.5%;
+    }
 }
 
 
@@ -20,6 +33,30 @@
     }
 }
 
+@media (max-width: 658px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 42.5%;
+    }
+}
+
+
+@media (max-width: 646px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 42%;
+    }
+}
+
+@media (max-width: 578px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 41%;
+    }
+}
+
+
+
 @media (max-width: 555px) {
     .middle-last-bottom,
     .middle-last-top {
@@ -29,18 +66,25 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 546px) {
     .middle-last-bottom,
     .middle-last-top {
-        max-width: 38%;
+        max-width: 41%;
+    }
+}
+
+@media (max-width: 454px) {
+    .middle-last-bottom,
+    .middle-last-top {
+        max-width: 39%;
     }
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 386px) {
     .middle-last-bottom,
     .middle-last-top {
-        max-width: 36%;
+        max-width: 37%;
     }
 }
 
